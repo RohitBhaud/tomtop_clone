@@ -1,0 +1,172 @@
+   
+        #body{
+            margin: 0%;
+            padding: 0%;
+        }
+        #navbar{
+            display: flex;
+            width: 100%;
+            height: 130px;
+         background-color: rgba(224, 220, 220, 0.863);
+           
+            margin: 0%
+        }
+        #navbar>img{
+           margin-top: 2%;
+            margin-left:8%;
+        }
+        #allcat>select{
+            width: 60px;
+            height:50px ;
+            border: transparent;
+            
+        }
+        #middle{
+            display: flex;
+            width: 500px;
+            height: 50px;
+            margin-top: 2.5%;
+            margin-left:8%;
+            background: white;
+        }
+        #textmid{
+        
+            margin-top: 1%;
+            margin-left:8%;
+            font-size: 15px;
+            border: transparent;
+        }
+        #search_bar{
+           margin-left: 30%;
+            height: 100%;
+        }
+
+        #signin{
+           margin-top: 2%;
+            margin-left:4%;
+        }
+        #sign_in{
+           margin-top: 2%;
+            margin-left:4%;
+        }
+    #undernav{
+        display: flex;
+        width: 95%;
+        height: 50px;
+        padding-left: 50px;
+    }
+
+    .abcd{
+       margin-left: 40px;
+       color: rgb(94, 91, 91);
+    }
+    #imageabcd{
+       margin-left: 200px;
+    }
+
+
+        #newarrivals{
+          display: grid;
+           height: 700px;
+           overflow: scroll;
+          grid-template-columns: repeat(3,32%);
+          grid-gap:1%;
+          background-color: rgba(224, 220, 220, 0.863);  
+      }
+      #creatediv{
+        
+          margin-top: 10px;
+          background-color: white;
+          padding-left: 15px;
+          box-shadow: 5px 10px 18px greenyellow
+      }
+
+     
+      body{
+       background-color: rgba(224, 220, 220, 0.863);
+
+      }
+      #linetrough{
+          color: red;
+          text-decoration: line-through;
+          margin-bottom: -3%;
+          
+      }
+      #newarrmain{
+          width: 95%;
+          height: 700px;
+          margin: auto;
+          display: flex;
+          
+      }
+     li:hover {
+ color: red;
+ cursor: pointer;
+}
+      #newarrleft{
+          margin-right: 10px;
+          background-color: white;
+          width: 300px;
+          height: 350px;
+          padding-left: 20px;
+      }
+      #footercontainer{
+           width: 100%;
+           margin-top: 20px;
+           padding-bottom: 20px;
+           background-color: white;
+       }
+       #footerabcd{
+           width: 80%;
+           height: 500px;
+           margin: auto;
+       }
+       #footerfirst{
+           display: flex;
+       }
+       #footersecond{
+          display: flex;
+       }
+       #footersecond>div{
+           margin-right: 30px;
+       }
+       #footersecond>div>input{
+           height: 40px;
+           width: 300px;
+       }
+       #footersecond>div>button{
+          height: 40px;
+           background-color: rgb(236, 140, 14);
+       }
+       #countcart{
+           color: green;
+           font-size: 30px;
+           font-weight: 40px;
+       }
+       #cartbutton{
+           width: 130px;
+           height: 30px;
+           background-color: orange;
+           margin: auto;
+           padding-bottom: 20px;
+           margin-bottom: 20px;
+           border: transparent;
+       }
+       #filterbutton{
+           width: 100px;
+           height: 30px;
+           background-color: rgba(224, 220, 220, 0.863);  
+           border: transparent;
+       }
+       .stylebtn{
+           width: 100px;
+           height: 30px;
+           background-color: rgba(224, 220, 220, 0.863);  
+           border: transparent;
+       }
+       #creatediv:hover {
+        -ms-transform: scale(1.1); 
+        -webkit-transform: scale(1.1); 
+        transform: scale(0.9); 
+        cursor: pointer;
+     }

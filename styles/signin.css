@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(241, 233, 233);
+}
+#heading{
+    width: 200px;
+    height: 100px;
+   margin: auto;
+}
+#sign_in{
+    width: 30%;
+    height: 500px;
+   background-color: white;
+   margin: auto;
+}
+#option_of_sign{
+  margin-left: 50px;
+}
+#sign_in>h1,p,img{
+    margin: auto;
+}
+#text{
+    width: 100px;
+    height: 50px;
+    margin: auto;
+}
+#social_media{
+    width: 300px;
+    margin: auto;
+}
+#email_address{
+     width:80%;
+     height: 30px;
+     margin: auto;
+     margin-top: 30px;
+}
+#email_address>input{
+    width: 100%;
+    height: 100%; 
+}
+#password{
+     width:80%;
+     height: 30px;
+     margin: auto;
+     margin-top: 30px;
+}
+#password>input{
+    width: 100%;
+    height: 100%; 
+}
+#signbutton{
+    width: 80%;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 45px;
+    background: orange;
+}
+#flexlast{
+    display: flex;
+    width: 80%;
+    height: 30px;
+    margin: auto;
+    margin-top: 20px;
+}
+#textblue{
+    color: blue;
+    margin-left: 10px;
+}
